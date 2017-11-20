@@ -105,7 +105,7 @@ section.success {
   font-weight: 700;
   text-transform: uppercase;
   border: none;
-  background: #2C3E50; }
+  background: #1976D2; }
   #mainNav a:focus {
     outline: none; }
   #mainNav .navbar-brand {
@@ -130,13 +130,13 @@ section.success {
     border-color: white; }
     #mainNav .navbar-toggler:focus, #mainNav .navbar-toggler:hover {
       color: white;
-      border-color: #18BC9C;
-      background-color: #18BC9C; }
+      border-color: #03A9F4;
+      background-color: #03A9F4; }
 
 @media (min-width: 992px) {
   #mainNav {
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: px;
+    padding-bottom: 5px;
     -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
     -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s; }
@@ -148,10 +148,10 @@ section.success {
     #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
       color: white;
       border-radius: 3px;
-      background: #18BC9C; }
+      background: #03A9F4; }
       #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
         color: white;
-        background: #18BC9C; }
+        background: #03A9F4; }
   #mainNav.navbar-shrink {
     padding-top: 10px;
     padding-bottom: 10px; }
@@ -163,7 +163,9 @@ header.masthead {
   padding-bottom: 50px;
   text-align: center;
   color: white;
-  background: #18BC9C; }
+  background: #2196F3;
+/* background-image: url("https://scontent-sin6-1.xx.fbcdn.net/v/t31.0-8/23632819_1670397696353208_5468251157154929603_o.jpg?oh=fc9d3118704b767816432974d648b308&oe=5AA0CCA2");  */
+}
   header.masthead img {
     display: block;
     margin: 0 auto 20px; }
